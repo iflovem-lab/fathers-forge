@@ -1,69 +1,10 @@
-# 父の窯と鉄の夢
+# Fathers Forge
 
-鍛冶屋経営 × 素材相場 × GPS探索 × 広告ゲーム導線の Stage 1 体験版です。
+Versioned browser-game builds are kept as separate HTML files so stable releases remain available.
 
-## Stage 1 の目的
+Current visual rebuild work:
+- v50: embedded premium home art experiment
+- v51: direct-render home art experiment
+- v52: black-and-gold interactive UI foundation using the stable v12 gameplay logic
 
-7日以内に初回返済 1,200G を達成し、ボロ工房を守ること。
-
-## 入っている要素
-
-- 鍛冶ミニゲーム
-  - 熱する
-  - 叩く
-  - 冷やす
-  - 研ぐ
-- 武器/防具制作
-  - 鉄の短剣
-  - 角槍
-  - 軽い革防具
-  - 見習い魔法杖
-- 販売
-  - 客の需要
-  - 予算
-  - 値付け倍率
-- 聞き耳/相場
-  - 薬草不足
-  - 角素材暴落
-  - 軽装防具ブーム
-  - 王国騎士団需要
-  - 魔法学校需要
-- 探索/GPS原型
-  - 通常探索
-  - 仮距離追加
-  - GPS現在地記録
-  - GPS移動確認
-- 広告導線
-  - 仮バナー広告
-  - 噂追加
-  - 追加客
-  - 探索2倍
-  - 制作ミス修正
-- 道具
-  - 重いハンマー
-  - 革エプロン
-  - 滑り止めグローブ
-  - 職人ゴーグル
-- ローカルセーブ
-
-## 遊び方
-
-1. 鍛冶で武器や防具を作る
-2. 販売で客に売る
-3. 聞き耳で相場の変化を読む
-4. 探索で素材を集める
-5. 1,200G貯めたら道具画面から返済する
-
-## Vercel への公開
-
-このリポジトリは静的HTMLのみです。
-Vercelでこのリポジトリを Import すれば、そのまま公開できます。
-
-- Framework Preset: Other
-- Build Command: 空欄でOK
-- Output Directory: 空欄でOK
-
-## 注意
-
-GPSと通知は、ブラウザや端末の権限、HTTPS環境によって動作が変わります。
-Vercel公開後はHTTPSになるため、ローカルHTMLより動作確認しやすくなります。
+Release rule: add and validate a new version before updating the homepage.
